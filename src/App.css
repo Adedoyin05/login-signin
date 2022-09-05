@@ -1,0 +1,280 @@
+
+
+
+
+.App {
+  background: rgb(75,219,180);
+  height: 730px;
+  
+  padding-top:1px;
+  padding-bottom: 13.5px;
+  margin: auto;
+  display: flex;
+}
+
+
+
+
+
+
+
+#square{
+
+  background-color: white;
+  height: 600px;
+  width: 1000px;
+  margin: auto ;
+  border-radius: 30px;
+
+  
+
+}
+
+
+
+
+
+#pattern{
+  background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7), 
+repeating-radial-gradient(circle at center center, #444cf7, #444cf7, 10px, transparent 20px, transparent 10px);
+
+background-blend-mode: multiply;
+background-color: white;
+height: 600px;
+width: 500px;
+border-radius: 30px;
+margin: 0px 00px;
+margin-top: -18px;
+}
+
+
+#login{
+  position:relative; left:600px; top:0100px;
+
+  
+}
+
+
+
+#details{
+  position: relative;
+   left:600px; 
+   top:0120px;
+   font-weight: 600;
+  
+}
+
+.input{
+  width: 270px;
+  height: 45px;
+  padding-left: 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  border-width: 1px;
+  border-color: #b6b7b9;
+  font-size: small;
+}
+
+
+.password{
+  margin-top: 10px;
+}
+
+
+/* #box{
+  /* border-radius: 60px; */
+  /* margin-top: 25px; */
+  /* size: 50px; */
+
+  */
+
+
+.button{
+  width: 288px;
+  height: 50px;
+  border-radius: 5px;
+  background: rgb(23,159,123);
+  background: linear-gradient(90deg, rgba(23,159,123,1) 44%, rgba(31,198,151,1) 88%);
+border-width: 0px;
+color: white;
+font-size: large;
+position: relative;
+
+
+}
+.free{
+  margin-top: 36px;
+
+
+}
+
+
+
+/* .pass{
+  position: relative;
+  left: 25px;
+  top: -40px;
+} */
+
+
+#blur{
+  background: rgba(14, 5, 5, 0.1);
+  backdrop-filter: blur(6px);
+background-blend-mode: multiply;
+/* background-color:; */
+height: 480px;
+width: 400px;
+border-radius: 30px;
+margin: 0px 00px;
+margin-top: -100px;
+position: relative;
+left: 50px;
+top: -440px;
+}
+
+
+
+#good{
+  width: 100px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.217);
+  text-align: center;
+  position: relative;
+  left: 40px;
+  top: 40px;
+  color: white;
+  font-weight: 1;
+}
+
+
+
+.bold{
+  font-weight: 500;
+}
+
+
+
+button:hover{
+  color: black;
+  cursor: pointer;
+}
+
+
+a{
+  color: none;  
+  text-decoration: none;
+  font-size: inherit;
+  visibility: inherit;
+  color: white;
+font-size: large;
+
+}
+
+
+
+.line{
+  position:relative;
+  left: -22px;
+}
+
+
+.we{
+position: relative;
+left: -22px;
+}
+
+
+
+.invite{
+  position: relative;
+  left: 42px;
+  top: 78px;
+  color: white;
+  font-size:30px ;
+  font-weight: lighter;
+}
+
+
+.million{
+  font-size:13px ;
+  position: relative;
+
+  top: -10px;
+  
+}
+
+
+
+.created{
+  position: relative;
+  top: 120px;
+  font-size: 18px;
+  font-weight:400;
+}
+
+
+
+
+.sign-in{
+  position: relative;
+  top: 110px;
+  font-size: 15px;
+  font-weight:600;
+}
+
+
+
+.google{
+  background-color: #ffffff;
+  width: 288px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: rgb(23,159,123);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+
+#logo{
+  height: 30px;
+  width: 30px;
+  position: relative;
+  right: 20px;
+  top: 1px;
+}
+
+
+
+#go{
+  position: relative;
+  right: 10px;
+  top: -8px;
+}
+
+
+#dash{
+  position: relative;
+  right: 10px;
+  top: -70px;
+  font-size: small;
+}
+
+
+#signme{
+  background-color: inherit;
+  border: none;
+  color: #ffffff;
+  font-size: 15px;
+  position: relative;
+  top: -20px;
+}
+
+
+#homepage{
+position: relative;
+right:  -600px;
+top: 50px;
+}

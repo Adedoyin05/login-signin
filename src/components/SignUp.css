@@ -1,0 +1,80 @@
+.main{
+    text-align:center;
+    justify-content: center;
+    display: flex;
+    padding: 90px 0 90px 0;
+    background-color: rgb(231, 230, 230);
+  }
+  .sub-main{
+    display: flex;
+    justify-content: center;
+    height: 30em;
+    width: 25em;
+    box-shadow: 11px 12px 13px 12px rgb(207,207,207);
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: white;
+    
+  }
+  input{
+    width: 300px;
+    height: 50px;
+    border-radius: 60px;
+    box-shadow: inset 0px 0px 25px 0px #888;
+    border: none;
+    outline: none;
+    background-color: #fff;
+  }
+  .name{
+    padding-left: 70px;
+    font-size: 20px;
+  }
+  .second-input{
+    padding-top: 20px;
+  }
+  button{
+    width: 380px;
+    height: 50px;
+    border-radius: 60px;
+    color:white;
+    background-color: #b103fc;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .login-button{
+    padding-top: 30px; 
+    /* padding-bottom: 20px;  */
+  }
+  .link{
+    font-size: 20px;
+    font-weight: 400;
+    justify-content: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  a{
+    color: rgb(98, 98, 190);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .link a:hover{
+    transition: .5s;
+    text-decoration: underline;
+  }
+  .break{
+    font-size: 20px;
+   
+  
+  }
+  .goto{
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center; 
+  }
+  .goto a:hover{
+    transition: .5s;
+    text-decoration: underline;
+  }
+  
+  
